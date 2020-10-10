@@ -3,7 +3,7 @@ import { View, StyleSheet, StatusBar, ActivityIndicator } from 'react-native';
 import * as Location from 'expo-location';
 import axios from 'axios';
 
-import { WEATHER_API_KEY } from '@env';
+import { WEATHER_API_KEY } from 'react-native-dotenv';
 import WeatherScreen from './WeatherScreen';
 import ErrorScreen from './ErrorScreen';
 import weatherApi from '../routes/api/weatherApi';
